@@ -1,0 +1,119 @@
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.main-heading{
+    background-color: #cacaca;
+    margin: 0;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.value{
+    background-color: #20b9ba;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    color: white;
+    padding-left: 7px;
+    padding-top: 4px;
+}
+
+.time{
+    color: green;
+    margin: 0;
+    margin-left: 7px;
+}
+
+.delay{
+    color: red;
+    margin: 0;
+    margin-left: 7px;
+    padding-right: 10px;
+}
+
+.name{
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-container{
+    background-color: white;
+    width: fit-content;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.full-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inbox-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #cacaca;
+}
+
+.search-box-container{
+    display: flex;
+    align-items: center;
+}
+
+.component-container{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.comp-element{
+    margin-right: 100px;
+}
+
+.inbox-name{
+    margin-left: 10px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+.main-progress{
+    background-color: red;
+    border-radius: 15px;
+    width: fit-content;
+    color: white;
+    padding: 2px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.progress{
+    color: red;
+    width: fit-content;
+    margin-left: 15px;
+    background-color: white;
+}
+
+.progress-box-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: white;
+    padding-top: 5px;
+    margin-bottom: 7px;
+}
+
+.img{
+    width: 100px;
+}
